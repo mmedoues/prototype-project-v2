@@ -1,0 +1,17 @@
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.embed-responsive::before {
+  display: block;
+  content: "";
+}
+
+.embed-responsive-16by9::before {
+  padding-top: 56.25%;
+}
+
